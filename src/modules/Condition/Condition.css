@@ -1,0 +1,19 @@
+.form{
+    width: 750px;
+    height: 600px;
+    overflow: auto;
+
+}
+.inp{
+    width: 500px;
+    position: absolute;
+    left: 17%;
+}
+.plch{
+    text-align: center;
+    color: black;
+}
+.btnsave{
+    position: absolute;
+    left:1%;
+}

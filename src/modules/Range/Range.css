@@ -1,0 +1,24 @@
+.variable{
+    width: 500px;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+.NtN{
+    background-color: red;
+}
+.BN{
+    background-color: lightblue;
+}
+.AtN{
+    background-color: lime;
+}
+.Perf{
+    background-color: #61dafb;
+}
+.form{
+    height: 700px;
+    overflow: auto;
+}
+p{
+    padding-left: 10px;
+}

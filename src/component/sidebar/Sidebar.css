@@ -1,0 +1,130 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+} 
+#accordion-example-body-5,
+#accordion-example-body-6,
+#accordion-example-body-7,
+#accordion-example-body-8{
+    transform: translateX(60px);
+    position: relative;
+    top: -60px !important;
+    width: 140px !important;
+}
+.p1{
+    padding: 0px;
+    margin: 0px;
+    font-size: 11px;
+}
+ul {
+    list-style: none;
+    padding-left: 0px;
+    font-weight:bold;
+    margin-bottom: 0px;
+}
+li a {
+    color: #000;
+    text-decoration: none;
+}
+li {
+    border-bottom: 1px solid gray;
+}
+li:last-child {
+    border-bottom: none;
+}
+li:hover {
+    color: white;
+} 
+#accordion1 li.panel{
+    margin-bottom: 0px;
+} 
+.xs2 > .panel-default{
+    height: 60px !important;
+}
+.xs2 > .btnGGL{
+    height: 80px !important;
+}
+.btngg:active, .btngg:focus,
+.btnGGL:active, .btnGGL:focus,
+.btnGGLA:active, .btnGGLA:focus {
+    outline: none !important;
+    background-color: darkslategray !important;
+    border-color: #000 !important;
+}
+.btngg::-moz-focus-inner,
+.btnGGL::-moz-focus-inner,
+.btnGGLA::-moz-focus-inner {
+    border: 0 !important;
+    background-color: darkslategray !important;
+    border-color: #000 !important;
+  }
+.btnGGLA, .btnGGL {
+    position: relative;
+    top: -0.5px;
+    width: 100%;
+    height: 60px;
+    padding: 0;
+    background-color: darkslategray;
+    border-color: black;
+    text-decoration: none;
+    color:white;
+}
+.btngg{
+    width: 50%;
+    height: 60px;
+    padding: 0;
+    background-color: darkslategray;
+    border-color: black;
+    text-decoration: none;
+    color:white;
+}
+.btnGGLA:hover, .btnGGL:hover, .btngg:hover{
+    background-color: darkslategray;
+    border-color: black;
+}
+
+.panel-group .panel + .panel{
+    margin-top: 0px;
+}
+.panel-body{
+    padding: 0px;
+    margin: 0px;
+}
+.panel-heading{
+    padding: 0px;
+}
+.panel-default > .panel-heading {
+    color: #333333;
+    background-color: darkslategray;
+    border-color: darkslategray;
+}
+.panel {
+    
+    background-color: black; 
+    border: none; 
+    -webkit-box-shadow: none; 
+    box-shadow: none; 
+}
+.cl2{
+    position: static;
+	height: 95vh;
+    padding: inherit;
+    background-color: darkslategray;
+}
+.cl10 {
+    margin-left: 140px;
+    width: 1400px;
+	height: 94vh;
+    overflow: auto;
+}
+.xs2{
+    height: 95vh;
+    padding: inherit;
+    background-color: darkslategray;
+    width: 60px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
